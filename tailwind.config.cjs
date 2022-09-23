@@ -12,6 +12,7 @@ module.exports = {
         "oxford-blue": '#1B263B', 
         "light-blue" : '#415a77',
         "flame-orange": '#eb5e28',
+        "cornsilk":'#FEFAE0'
       },
     },
   },
