@@ -4,7 +4,7 @@ import Card from './Card'
 
 const Cards = ({data}) => {
   return (
-    <div className='flex justify-between'>
+    <div className='flex justify-between flex-wrap'>
         {
             data && data.map((anime)=> (<Card data={anime}/>))
         }
