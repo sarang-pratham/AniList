@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "rich-black": '#0D1B2A',
-        "oxford-blue": '#1B263B', 
-        "light-blue" : '#415a77',
-        "flame-orange": '#eb5e28',
-        "cornsilk":'#FEFAE0'
+        "floral-white": '#FFFCF2',
+        "pale-silver":'#CCC5B9',
+        "black-olive": '#403D39',
+        "eerie-black": '#252422',
+        "flame-orange": '#EB5E28'
       },
     },
   },
