@@ -4,9 +4,9 @@ import Card from './Card'
 
 const Cards = ({data}) => {
   return (
-    <div className='flex justify-between flex-wrap'>
+    <div className='flex overflow-auto scrollbar'>
         {
-            data && data.map((anime)=> (<Card data={anime}/>))
+            data && data.map((anime)=> (<Card data={anime} key={anime.mal_id}/>))
         }
     </div>
   )

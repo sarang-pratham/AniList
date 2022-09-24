@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='bg-rich-black text-white flex justify-between items-center p-3'>
+    <nav className='bg-eerie-black text-floral-white flex justify-between items-center p-3 absolute inset-x-0 top-0'>
         <h1 className='font-bold text-2xl'>AniList</h1>
-        <input type="text" className='p-3 rounded w-1/2 bg-oxford-blue' placeholder='Search Anime...'/>
+        <input type="text" className='p-3 rounded w-1/2 bg-black-olive' placeholder='Search Anime...'/>
         <button 
           className='p-2 hover:bg-flame-orange border border-flame-orange rounded px-6 py-2 flex items-center text-xl'
           title='Suggest random anime'>
