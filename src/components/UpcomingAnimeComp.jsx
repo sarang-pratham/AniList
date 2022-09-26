@@ -17,7 +17,7 @@ const UpcomingAnimeComp = () => {
 
   return (
     <div className='p-5'>
-      <Link to='/upcominganime'>
+      <Link to='/more/upcoming'>
         <span className='text-2xl font-bold inline-block p-2 mb-3 hover:text-flame-orange'>
           Upcoming &gt;&gt;&gt;
         </span>

@@ -11,7 +11,7 @@ const Home = () => {
       <TopAnimeComp/>
       <SeasonsNowComp/>
       <UpcomingAnimeComp/>
-      <GenresComp/>
+      {/* <GenresComp/> */}
     </div>
   )
 }

@@ -16,7 +16,7 @@ const TopAnimeComp = () => {
 
   return (
     <div className='p-5 mt-16'>
-      <Link to='/topanimelist'>
+      <Link to='/more/top'>
         <span className='text-2xl font-bold inline-block p-2 mb-3 hover:text-flame-orange'>
           Top Anime &gt;&gt;&gt;
         </span>

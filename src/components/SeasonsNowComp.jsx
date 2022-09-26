@@ -18,7 +18,7 @@ const SeasonsNowComp = () => {
 
   return (
     <div className='p-5'>
-      <Link to='/nowairing'>
+      <Link to='/more/now'>
         <span className='text-2xl font-bold inline-block p-2 mb-3 hover:text-flame-orange'>
           Now Airing &gt;&gt;&gt;
         </span>
